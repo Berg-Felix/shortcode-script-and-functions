@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Shortcode Script and Functions
-Plugin URI: http://
+Plugin URI: https://github.com/Berg-Felix/shortcode-script-and-functions
 Description: Adicione Scripts, Shortcode e funcionalidades em suas páginas web.
 Version: 0.1
 Author: Berg Felix
-Author URI: https://github.com/Berg-Felix/codigo-de-conversao
+Author URI: https://github.com/Berg-Felix/shortcode-script-and-functions
 Text Domain: ssf-text-domain
 Domain Path: /languages
 License: GPLv2 or later
