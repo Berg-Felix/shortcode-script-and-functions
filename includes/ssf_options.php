@@ -115,17 +115,7 @@ function insere_link_desatualizado($content) {
 				if($emailEnviado){
 				
 					$agradecimento_link_desatualizado ='Obrigado por nos informar sobre o conteúdo desatualizado iremos atualizar o mais rápido possivel.';
-					do_shortcode('<div id="agradecimento">[box type="download"]'.$agradecimento_link_desatualizado.'[/box]</div>');
-					
-					
-					echo "<script>
-							$(document).ready(function(){
-
-									$('#teste').click(function(){
-										$('#ssfLinkDesatualizado').css('backgroundColor','#000');  
-									})									
-							});							
-					</script>";
+					echo do_shortcode('<div id="agradecimento">[box type="download"]'.$agradecimento_link_desatualizado.'[/box]</div>');
 				}
 			}
         }
@@ -133,23 +123,3 @@ function insere_link_desatualizado($content) {
 	echo $content;
 }
 add_filter(get_localizacao_link_desatualizado(), 'insere_Link_desatualizado', 999, 999);
-
-// function enfileirar_plugin_scripts(){
-	
-		// wp_deregister_script( 'jquery' );
-		// wp_register_script( 'jquery', plugin_dir_url( __FILE__ ).'/includes/js/jquery-1.7.2.min.js');
-		// wp_enqueue_script( 'jquery' );
-	    
-	
-// }
-// add_action('wp_enqueue_scripts','enfileirar_plugin_scripts');
-
-
-
-
-
-
-
-
-
-
